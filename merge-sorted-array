@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/merge-sorted-array/description/
 
+// first approach: using sort(); accepted by leetcode
+
 #include <iostream>
 #include <vector>
 
@@ -14,3 +16,9 @@ public:
         std::sort(nums1.begin(), nums1.end());
     }
 };
+
+// second approach: not using sort()
+
+/*
+TODO
+*/
