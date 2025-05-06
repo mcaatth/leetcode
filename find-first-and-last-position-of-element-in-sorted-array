@@ -11,7 +11,7 @@ public:
         auto first = lower_bound(nums.begin(), nums.end(), target) - nums.begin();
         if (check == 0) {output.push_back(-1);} else {output.push_back(first);}
         auto second = upper_bound(nums.begin(), nums.end(), target) - nums.begin();
-        if (check == 0 || first == second) {output.push_back(-1);} else {output.push_back(second-1);}
+        if (check == 0) {output.push_back(-1);} else {output.push_back(second-1);}
         return output;
     }
 };
